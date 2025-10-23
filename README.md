@@ -111,10 +111,6 @@ Feel free to reach out for:
 
 ---
 
-## 📈 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gollanaveenkumar2002&show_icons=true&theme=radical)
-
 ---
 
 ## 📝 License
