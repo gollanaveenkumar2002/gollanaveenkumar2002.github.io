@@ -92,10 +92,10 @@ Machine learning model predicting customer churn with 85%+ accuracy using XGBoos
 
 ## 📫 Contact Me
 
-- **Email:** naveenkumar@example.com
-- **Phone:** +91 12345 67890
+- **Email:** nyadav77181@gmail.com.com
+- **Phone:** +91 7093494563
 - **Location:** India
-- **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- **LinkedIn:** [Your LinkedIn](https://www.linkedin.com/in/golla-naveen-kumar-846b5227b/)
 - **GitHub:** [gollanaveenkumar2002](https://github.com/gollanaveenkumar2002)
 
 ---
