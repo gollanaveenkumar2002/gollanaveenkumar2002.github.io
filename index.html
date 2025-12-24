@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golla Naveen Kumar - AI/ML Engineer & Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="animated-bg"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-content">
+            <a href="#" class="logo">NAVEEN</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="gradient-text">Golla Naveen Kumar</span></h1>
+                <p class="subtitle">AI/ML Engineer & Full Stack Developer</p>
+                <p>Crafting intelligent solutions with cutting-edge AI, automation, and modern web technologies.
+                    Specializing in LLMs, AI Agents, RPA, and scalable full-stack applications.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> View Work
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="image-bg"></div>
+                    <div class="profile-pic">
+                        <!-- TO ADD YOUR IMAGE: Uncomment the line below and add your image -->
+                        <img src="myphoto.png" alt="Naveen Kumar">
+
+                        <!-- Placeholder (remove when adding image) -->
+                        <div class="profile-placeholder">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Career Journey</span>
+                <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+                <p class="section-subtitle">Building innovative solutions with AI and technology</p>
+            </div>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-title">
+                            <h3>AI Developer Intern</h3>
+                            <div class="experience-company">Swecha Telangana</div>
+                        </div>
+                        <div class="experience-date">
+                            <i class="far fa-calendar"></i>
+                            2025
+                        </div>
+                    </div>
+                    <p class="experience-description">
+                        Contributed to open-source AI projects and developed machine learning models for social impact
+                        initiatives. Worked on data preprocessing, model training, and deployment pipelines.
+                        Collaborated with a diverse team on AI-driven solutions for educational and governmental
+                        applications in Telangana.
+                    </p>
+                    <div class="experience-skills">
+                        <span class="experience-skill">Python</span>
+                        <span class="experience-skill">Machine Learning</span>
+                        <span class="experience-skill">TensorFlow</span>
+                        <span class="experience-skill">Data Analysis</span>
+                        <span class="experience-skill">Open Source</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">What I Do</span>
+                <h2 class="section-title">Skills & <span class="gradient-text">Expertise</span></h2>
+                <p class="section-subtitle">Building tomorrow's solutions with today's most advanced technologies</p>
+            </div>
+            <div class="skills-grid">
+                <!-- Frontend Development -->
+                <div class="skill-box">
+                    <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Frontend Development</h3>
+                    <p>Creating responsive, user-friendly interfaces with modern web technologies</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Responsive UI</span>
+                        <span class="tech-tag">Component-based</span>
+                    </div>
+                </div>
+
+                <!-- Backend Development -->
+                <div class="skill-box">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <h3>Backend Development</h3>
+                    <p>Building robust, scalable backend systems with Python and FastAPI</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">REST API</span>
+                        <span class="tech-tag">Data Validation</span>
+                    </div>
+                </div>
+
+                <!-- AI & Generative AI -->
+                <div class="skill-box">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h3>AI & Generative AI</h3>
+                    <p>Developing intelligent systems powered by cutting-edge AI technologies</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">GenAI</span>
+                        <span class="tech-tag">AI Agents</span>
+                        <span class="tech-tag">RAG</span>
+                        <span class="tech-tag">Prompt Engineering</span>
+                        <span class="tech-tag">LLM Q&A</span>
+                    </div>
+                </div>
+
+                <!-- AI Agent Frameworks & Tools -->
+                <div class="skill-box">
+                    <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                    <h3>AI Agent Frameworks & Tools</h3>
+                    <p>Orchestrating complex multi-agent workflows and autonomous systems</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">CrewAI</span>
+                        <span class="tech-tag">Multi-agent</span>
+                        <span class="tech-tag">Task Orchestration</span>
+                        <span class="tech-tag">Autonomous Agents</span>
+                    </div>
+                </div>
+
+                <!-- Vibe Coding & AI Dev Tools -->
+                <div class="skill-box">
+                    <div class="skill-icon"><i class="fas fa-magic"></i></div>
+                    <h3>Vibe Coding & AI Dev Tools</h3>
+                    <p>Leveraging AI-powered development tools for rapid prototyping</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Claude</span>
+                        <span class="tech-tag">Cursor</span>
+                        <span class="tech-tag">Antigravity</span>
+                        <span class="tech-tag">Lovable</span>
+                        <span class="tech-tag">AI-assisted Dev</span>
+                    </div>
+                </div>
+
+                <!-- RPA & Automation -->
+                <div class="skill-box">
+                    <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+                    <h3>RPA & Automation</h3>
+                    <p>Streamlining processes with intelligent automation solutions</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">UiPath</span>
+                        <span class="tech-tag">Selenium</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                </div>
+
+                <!-- Machine Learning -->
+                <div class="skill-box">
+                    <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Machine Learning</h3>
+                    <p>Predictive models and deep learning architectures at scale</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">PyTorch</span>
+                        <span class="tech-tag">Scikit-learn</span>
+                    </div>
+                </div>
+
+                <!-- Large Language Models -->
+                <div class="skill-box">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Large Language Models</h3>
+                    <p>Fine-tuning and deploying LLMs with RAG and prompt engineering</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">GPT-4</span>
+                        <span class="tech-tag">Claude</span>
+                        <span class="tech-tag">Llama</span>
+                    </div>
+                </div>
+
+                <!-- Full Stack Development -->
+                <div class="skill-box">
+                    <div class="skill-icon"><i class="fab fa-react"></i></div>
+                    <h3>Full Stack Development</h3>
+                    <p>Modern web applications with seamless user experiences</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <!-- Cloud & DevOps -->
+                <div class="skill-box">
+                    <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>Scalable deployments with CI/CD and containerization</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Kubernetes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">Showcasing advanced AI, automation, and machine learning work</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: FastAPI Calculator API -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>FastAPI Calculator API</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Backend Development</span>
+                        </div>
+                        <p>
+                            A backend REST API built using FastAPI to perform arithmetic operations with clean API
+                            design and validation.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">FastAPI</span>
+                        </div>
+                        <a href="https://github.com/gollanaveenkumar2002/fastAPI---calculator" target="_blank"
+                            rel="noopener"
+                            style="color: var(--accent-primary); text-decoration: none; font-weight: 600; margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: APK Data Extractor & Analyzer -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>APK Data Extractor & Analyzer</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Cybersecurity + Backend</span>
+                        </div>
+                        <p>
+                            A cybersecurity-focused tool that extracts APK metadata, source code elements, permissions,
+                            IPs, URLs, domains, and threat indicators.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">Static Analysis</span>
+                        </div>
+                        <a href="https://github.com/gollanaveenkumar2002/apkdataextractor" target="_blank"
+                            rel="noopener"
+                            style="color: var(--accent-primary); text-decoration: none; font-weight: 600; margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Wikipedia Q&A AI Agent -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Wikipedia Q&A AI Agent</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Generative AI</span>
+                        </div>
+                        <p>
+                            An AI-powered question-answering agent that retrieves relevant information from Wikipedia
+                            using RAG and LLM reasoning.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">LLMs</span>
+                            <span class="tech-tag">RAG</span>
+                            <span class="tech-tag">AI Agents</span>
+                        </div>
+                        <a href="https://github.com/gollanaveenkumar2002/wikipedia-QA-agent" target="_blank"
+                            rel="noopener"
+                            style="color: var(--accent-primary); text-decoration: none; font-weight: 600; margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4: Cogninode Technologies Website -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Cogninode Technologies Website</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Frontend Development</span>
+                        </div>
+                        <p>
+                            A professional company portfolio website showcasing services, branding, and digital
+                            presence.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/gollanaveenkumar2002/cogninodetech" target="_blank" rel="noopener"
+                            style="color: var(--accent-primary); text-decoration: none; font-weight: 600; margin-top: 1rem; display: inline-flex; align-items: center; gap: 0.5rem;">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Original Project 1: Gramasakshi AI Assistant -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>AI Assistant – Gramasakshi</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Groq APIs</span>
+                            <span class="project-tag">NLP</span>
+                            <span class="project-tag">Streamlit</span>
+                            <span class="project-tag">TTS/STT</span>
+                        </div>
+                        <p>
+                            Developed an AI-Powered assistant for rural users to answer queries about medical, farming,
+                            education, and more. Supports voice and text interactions in regional languages with
+                            real-time data via APIs.
+                        </p>
+                        <ul style="margin-left: 1.2em; margin-top: 0.5em;">
+                            <li>Designed the conversational engine and integrated multiple APIs</li>
+                            <li>Implemented multilingual voice/text support and optimized domain-specific responses</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Original Project 2: UiPath RPA Bot -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>UiPath RPA Bot for Web Scraping & Excel Reporting</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">UiPath Studio</span>
+                        </div>
+                        <p>
+                            Created an RPA bot to automatically extract structured data from websites and store it in
+                            Excel, eliminating manual entry.
+                        </p>
+                        <ul style="margin-left: 1.2em; margin-top: 0.5em;">
+                            <li>Configured data scraping, selectors, and key activities for accurate capture and storage
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Original Project 3: PDF WhatsApp Bot -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Python Automated PDF Fetch & WhatsApp Sharing Bot</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Selenium</span>
+                            <span class="project-tag">WhatsApp</span>
+                        </div>
+                        <p>
+                            Automation to fetch PDFs from websites and instantly share them via WhatsApp, speeding up
+                            delivery and removing repetitive manual work.
+                        </p>
+                        <ul style="margin-left: 1.2em; margin-top: 0.5em;">
+                            <li>Integrated WhatsApp Web automation for sharing with designated contacts/groups</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Original Project 4: Customer Churn Prediction -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Customer Churn Prediction</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Scikit-learn</span>
+                            <span class="project-tag">XGBoost</span>
+                            <span class="project-tag">Pandas</span>
+                        </div>
+                        <p>
+                            Predicted customer churn for a telecom company using supervised ML to enable better
+                            retention strategies.
+                        </p>
+                        <ul style="margin-left: 1.2em; margin-top: 0.5em;">
+                            <li>Preprocessed and analyzed data; handled imbalance with SMOTE</li>
+                            <li>Trained models achieving 85%+ accuracy with GridSearchCV optimization</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Original Project 5: Malicious URL Detection -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Malicious URL Detection using Deep Reinforcement Learning</h3>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">DRL</span>
+                            <span class="project-tag">TensorFlow</span>
+                            <span class="project-tag">ALBERT</span>
+                            <span class="project-tag">Gym</span>
+                        </div>
+                        <p>
+                            Designed a DRL-powered cybersecurity system to detect phishing/malware URLs using DQN and
+                            ALBERT embeddings.
+                        </p>
+                        <ul style="margin-left: 1.2em; margin-top: 0.5em;">
+                            <li>Built custom Gym environment for real-time DRL agent training</li>
+                            <li>Created web app for live predictions with Google Safe Browsing API integration</li>
+                            <li>Benchmarked against traditional ML models (Random Forest, SVM)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Achievements</span>
+                <h2 class="section-title">Certifications & <span class="gradient-text">Training</span></h2>
+                <p class="section-subtitle">Continuous learning and professional development</p>
+            </div>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automation Starter</h3>
+                    <div class="cert-issuer">UiPath Academy</div>
+                    <span class="cert-date"><i class="far fa-calendar"></i> 2025</span>
+                    <p class="cert-description">
+                        Gained hands-on knowledge of RPA concepts and built simple automation workflows using UiPath.
+                    </p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Advanced AI Building Bootcamp</h3>
+                    <div class="cert-issuer">IIIT Hyderabad (via Swecha)</div>
+                    <span class="cert-date"><i class="far fa-calendar"></i> June 2024</span>
+                    <p class="cert-description">
+                        Participated in an intensive hands-on program focused on advanced AI concepts and real-world
+                        applications. Worked on projects involving machine learning, deep learning, and AI model
+                        deployment.
+                    </p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Introduction to Cybersecurity</h3>
+                    <div class="cert-issuer">Cisco Networking Academy</div>
+                    <span class="cert-date"><i class="far fa-calendar"></i> July 2022</span>
+                    <p class="cert-description">
+                        Developed understanding of cybersecurity concepts, network protection, and cyber threat
+                        management.
+                    </p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Operating System (OS) Basics</h3>
+                    <div class="cert-issuer">Cisco Networking Academy</div>
+                    <span class="cert-date"><i class="far fa-calendar"></i> June 2023</span>
+                    <p class="cert-description">
+                        Gained foundational understanding of operating systems, including processes, memory management,
+                        file systems, and system security.
+                    </p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3>Java Tools (Basic) Certificate</h3>
+                    <div class="cert-issuer">Future Skills Prime by AICTE</div>
+                    <span class="cert-date"><i class="far fa-calendar"></i> February 2023</span>
+                    <p class="cert-description">
+                        Gained foundational knowledge of Java development tools and their applications in software
+                        development.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+                <p class="section-subtitle">Ready to bring your ideas to life? Let's collaborate</p>
+            </div>
+            <div class="contact-grid">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Your Email</label>
+                        <input type="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+                <div class="contact-info">
+                    <h3>Let's Build Something Amazing</h3>
+                    <p>Whether you need AI expertise, automation solutions, or full-stack development, I'm here to help
+                        turn your vision into reality.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>nyadav77181@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 7093494563</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/golla-naveen-kumar-846b5227b/" class="social-link"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/gollanaveenkumar2002" class="social-link"><i
+                                class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Golla Naveen Kumar. Designed & Built with passion.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
